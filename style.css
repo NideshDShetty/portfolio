@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+/* body header */
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(pictures/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top:1.2rem;
+}
+/* horizontal list */
+.horizontal-list
+        {
+          list-style:none;
+          padding-left:0px;
+          margin:0px;
+
+        }
+.horizontal-list li{
+  display:inline-block;
+  margin:0px 8px 8px 0px;
+  font-weight:100;
+  font-size:1rem;
+}
+.horizontal-list li a:hover{
+  color:lightgrey;
+  border-bottom: 1px solid white;
+
+}
+
+.horizontal-list li a{
+  color:white;
+  text-decoration:none;
+  transition:color 0.5s,border-bottom 4s;
+}
+.text-center
+{
+  text-align:center;
+}
